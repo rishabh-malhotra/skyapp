@@ -1,0 +1,27 @@
+/*
+
+Skyapp Bootstrap Sass Theme
+Author: Rishabh Malhotra
+Version: 0.0.1
+*/
+
+/*  Base- Base styles,variables,mixins,etc  */
+
+@import 'base/_base.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+
+/*  MODULES- Individuals Site Components  */
+
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_components.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_typography.scss';
+
+/*Layouts - Page layout styles */
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';

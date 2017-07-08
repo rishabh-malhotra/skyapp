@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_base.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_normalize.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_components.scss",
+		"../scss/modules/_sections.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/layouts/_nav.scss",
+		"../scss/layouts/_header.scss",
+		"../scss/layouts/_footer.scss"
+	],
+	"sourcesContent": [
+		"/*\r\n\r\nSkyapp Bootstrap Sass Theme\r\nAuthor: Rishabh Malhotra\r\nVersion: 0.0.1\r\n*/\r\n\r\n/*  Base- Base styles,variables,mixins,etc  */\r\n\r\n@import 'base/_base.scss';\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n\r\n/*  MODULES- Individuals Site Components  */\r\n\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_components.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_typography.scss';\r\n\r\n/*Layouts - Page layout styles */\r\n\r\n@import 'layouts/_nav.scss';\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": "AAAA;;;;;EAKE;AAEF,8CAA8C;AAO9C,4CAA4C;AAQ5C,iCAAiC",
+	"names": []
+}
