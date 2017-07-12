@@ -4,8 +4,230 @@ Skyapp Bootstrap Sass Theme
 Author: Rishabh Malhotra
 Version: 0.0.1
 */
-/*  Base- Base styles,variables,mixins,etc  */
-/*  MODULES- Individuals Site Components  */
-/*Layouts - Page layout styles */
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/*background colors */
+/* Showcase Area */
+/* Mixins */
+/* line 1, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+/* line 5, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 1, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", "sans-serif";
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 8, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 12, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 16, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 20, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* MODULES - Individual site components */
+/* Lists */
+/* line 3, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 14, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 2.2em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 19, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* Blocks */
+/* line 3, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 7, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* line 14, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 19, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 24, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 29, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464;
+  color: #ffffff;
+}
+
+/* line 35, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* SECTIONS */
+/* line 4, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+section {
+  padding: 30px 0px;
+}
+
+/* line 7, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+  margin-top: -55px;
+}
+
+/* line 11, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+
+/* line 16, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 22, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 28, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 34, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 40, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464;
+  color: #ffffff;
+}
+
+/*Searchbox */
+/* line 3, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 6, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 21, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -6px;
+}
+
+/* LAYOUTS - Page layout styles */
+/* Navbar */
+/* line 4, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 13, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 23, C:/Users/risha/Desktop/stuff/projects/skyapp/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: #fff !important;
+}
 
 /*# sourceMappingURL=../css/main.map */

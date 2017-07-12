@@ -1,0 +1,22 @@
+/* Lists */
+
+.list{
+	margin-bottom:30px;
+}
+
+.list-feature{
+	@extend .list;
+	margin:0;
+	padding:0;
+	width:80%;
+
+
+	li{
+		line-height:2.2em;
+		@include add-border(1px,#cccccc,bottom);
+	}
+
+	li:last-child{
+		border:0;
+	}
+}

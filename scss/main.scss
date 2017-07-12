@@ -5,23 +5,26 @@ Author: Rishabh Malhotra
 Version: 0.0.1
 */
 
-/*  Base- Base styles,variables,mixins,etc  */
+/* BASE - Base styles, variables, mixins, etc */
 
-@import 'base/_base.scss';
 @import 'base/_variables.scss';
 @import 'base/_mixins.scss';
 @import 'base/_normalize.scss';
+@import 'base/_base.scss';
 
-/*  MODULES- Individuals Site Components  */
+/* MODULES - Individual site components */
 
+@import 'modules/_typography.scss';
 @import 'modules/_blocks.scss';
 @import 'modules/_buttons.scss';
-@import 'modules/_components.scss';
 @import 'modules/_sections.scss';
-@import 'modules/_typography.scss';
+@import 'modules/_components.scss';
+@import 'modules/_forms.scss';
 
-/*Layouts - Page layout styles */
+/* LAYOUTS - Page layout styles */
 
 @import 'layouts/_nav.scss';
 @import 'layouts/_header.scss';
 @import 'layouts/_footer.scss';
+//@import 'layouts/_blog.scss';
+//@import 'layouts/_mobile.scss';
