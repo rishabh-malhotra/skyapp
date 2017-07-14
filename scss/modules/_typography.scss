@@ -12,11 +12,138 @@
 
 
 	li{
-		line-height:2.2em;
+		line-height:3.6em;
 		@include add-border(1px,#cccccc,bottom);
+		overflow:auto;
 	}
 
 	li:last-child{
 		border:0;
 	}
+
+
+	span{
+		verical-align:top;
+		padding-top:9px;
+		font-size:120%;
+	}
+
+	i{
+		margin-top:-9px;
+		margin-right:5px;
+	}
 }
+
+
+.list-comments img{
+		width:100px;
+}
+
+.list-comments li{
+	padding:10px 0 5px 0;
+	@include add-border(1px,#cccccc,bottom);
+	overflow:auto !important;
+
+}
+
+.list-comments li:last-child{
+	border:0;
+}
+
+.list-comments{
+	padding:0;
+	margin:0;
+}
+
+.wd{
+	width:100%;
+}
+/*Icons */
+
+.fa-2{
+	font-size:18px;
+}
+
+.fa-3{
+	font-size:24px;
+}
+
+.fa-4{
+	font-size:27px;
+}
+
+.fa-5{
+	font-size:35px;
+}
+
+.fa-6{
+	font-size:40px;
+}
+
+.fa-primary{
+	color:$primary-color;
+
+}
+
+.fa-border{
+	@include add-border(1px,$primary-color,all);
+	@include border-radius(5px);
+	padding:13px 15px;
+	width:70px;
+	margin-bottom: 10px;
+}
+/*Heading */
+.heading-primary{
+	color:$primary-color;
+}
+
+.heading-primary-a{
+	@extend .heading-primary;
+	@include add-border(1px,$primary-color,bottom);
+}
+
+
+.heading-secondary{
+	color:$secondary-color;
+}
+
+.heading-secondary-a{
+	@extend .heading-secondary;
+	@include add-border(1px,$secondary-color,bottom);
+}
+
+.heading-light{
+	color:$light-color;
+}
+.heading-light-a{
+	@extend .heading-light;
+	@include add-border(1px,$light-color,bottom);
+}
+.heading-dark{
+	color:$dark-color;
+}
+
+.heading-dark-a{
+	@extend .heading-dark;
+	@include add-border(1px,$dark-color,bottom);
+}
+
+
+/*Emphasis Text*/
+
+.em-primary{
+	color:$primary-color;
+}
+
+.em-secondary{
+	color:$secondary-color;
+}
+
+.em-dark{
+	color:$dark-color;
+}
+
+.em-light{
+	color:$light-color;
+}
+

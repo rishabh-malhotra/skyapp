@@ -7,7 +7,7 @@ section{
 .section-showcase{
 	height: $showcase-height;
 	background: url($showcase-image) no-repeat top center;
-	margin-top:-55px;
+	//margin-top:-55px;
 	.showcase-content{
 		padding:110px 15px;
 		text-align:center;
@@ -23,6 +23,16 @@ section{
 
 	@include add-background($primary-color);
 
+}
+
+.section-primary-a{
+	@extend .section-primary;
+	@include add-border(4px,$secondary-color,top);
+}
+
+.section-primary-b{
+	@extend .section-primary;
+	@include add-border(4px,$secondary-color,bottom);
 }
 
 .section-light{
@@ -42,3 +52,11 @@ section{
 	@include add-background($dark-color);
 
 }
+
+
+.section-map{
+	iframe{
+		width:100% !important;
+	}
+}
+

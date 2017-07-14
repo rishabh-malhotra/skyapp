@@ -9,3 +9,34 @@ h1,h2,h3,h4,h5,h6{
 .no-pad-top{
 	padding-top:0;
 }
+
+.extra-pad{
+	padding:40px 0;
+}
+
+.top-inner{
+	padding:90px 0 30px 0;
+}
+
+
+/*Image size */
+.img-sm{
+	width:200px;
+}
+
+.img-xsm{
+	width:100px;
+
+}
+
+.img-lg{
+	width:400px;
+}
+
+.img-xlg{
+	width:700px;
+}
+
+.clearfix{
+	clear:both;
+}

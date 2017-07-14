@@ -9,6 +9,10 @@
 		margin-top:0;
 	}
 
+	iframe{
+		width:100% !important;
+	}
+
 }
 
 .block-primary{
@@ -35,3 +39,43 @@
 .block-center{
 	text-align:center !important;
 }
+
+.block-image img{
+	width:100%;
+}
+
+.block-border{
+	@include add-border(1px,#cccccc,all);
+}
+
+.block-primary-head h3{
+	padding:15px 5px 15px 10px;
+	margin:0;
+	font-size:18px;
+	@include add-background($primary-color);
+}
+
+.block-primary-head .block-content{
+	padding:10px;
+	@include add-border(1px,$primary-color,all);
+}
+
+.block-icon{
+	h3{
+		margin:0;
+		padding:0;
+	}
+
+	.icon{
+		float:left;
+		width:20%;
+		margin-top:10px;
+	}
+
+	.icon-content{
+		float:left;
+		width:70%;
+
+	}
+}
+
